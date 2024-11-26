@@ -3,7 +3,7 @@
 
 import random
 numCicli1 = 100 #regola il numero di iterazioni del ciclo più interno, quindi anche le avg intermedie
-numcicli2 = 100 #regola il numero di iterazioni del ciclo più estermo, quindi anche le avg finali
+numcicli2 = 100 #regola il numero di iterazioni del ciclo più estermo, quindi anche le avg finali (da tenere <1000)
 
 maxMax = 0
 minMax = 10000
@@ -48,9 +48,9 @@ for i in range (1, numcicli2):
         minMin = min
     avgMin += min
 
-    if avg > maxAvg:
+    if (avg/numCicli1) > maxAvg:
         maxAvg = (avg/numCicli1)
-    elif avg < minAvg:
+    elif (avg/numCicli1) < minAvg:
         minAvg = (avg/numCicli1)
     avgAvg += (avg/numCicli1)
 print("maxMax = ", maxMax)
