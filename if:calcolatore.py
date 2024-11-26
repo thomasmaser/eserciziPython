@@ -1,4 +1,4 @@
-"""
+#esercizio if: calcolatore
 i = "si"
 while i=="si":
     operazione = int(input("selezione operazione\n1-somma\n2-sottrazione\n3-moltiplicazione\n4-divisione\n"))
@@ -29,28 +29,4 @@ while i=="si":
         print("non hai selezionato un'opzione valida") 
     i = str(input("continuare?"))
 
-"""
 
-continuare = "si"
-while continuare == "si":
-    num1 = float(input())
-    operatore = str(input())
-    num2 = float(input())
-    if operatore == ">":
-        if num1 > num2:
-            print(num1, "è maggiore di ", num2)
-        else:
-            print(num1, "non è maggiore di ", num2)
-    elif operatore == "<":
-        if num1<num2:
-            print(num1, "è minore di", num2)
-        else:
-            print(num1, "non è minore di ", num2)
-    elif operatore == "=":
-        if num1==num2:
-            print("i due numeri sono uguali")
-        else:
-            print("i due numeri non sono uguali")
-    else:
-        print("operazione non contemplata")
-    continuare = str(input("continuare?\n"))
