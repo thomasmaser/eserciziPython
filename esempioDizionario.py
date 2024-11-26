@@ -14,6 +14,7 @@ if x["brand"] == "fiat":
 else:
     print("hashkiffhfh")
 """
+i = "spirulì"
 x["marca"] = str(input("marca: "))
 x["modello"]= str(input("modello: "))
 x["colore"] = str(input("colore: "))
@@ -34,3 +35,6 @@ if x["colore"] == "blu":
     print("madonna oh. la smetto perchè sarebbe come sparare sulla croce rossa")
 else:
     print("ah, bellino")
+#hey brother, let's git together
+#gagagagayryryytuuuhjfh
+print("papapa")
